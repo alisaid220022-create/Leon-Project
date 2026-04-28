@@ -193,6 +193,11 @@ body {
 .features .container .feat:not(:last-child) {
     border-right: 2px solid #ddd;
 }
+@media (max-width: 767px) { 
+    .features .container .feat:not(:last-child) {
+    border-right: 2px solid transparent;
+}
+}
 .features .container .feat i {
     color: var(--main-color);
 }
@@ -421,6 +426,7 @@ body {
     color: white;
     text-align: center;
     padding: 30px 10px;
+    margin-bottom: -500px;
     height: 200px;
     line-height: 100px;
 }
